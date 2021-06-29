@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>To-do Application</title>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>To Do Application</h1>
+            <p><em> by Mahmudul Hasan Shafin</em></p>
+        </div>
+        <div id="form-container">
+            <form action="#" method="POST">
+                <label for="new-task">Add new Task</label>
+                <input type="text" required id="new-task">
+                <input type="submit" id="add-task" value="Submit">
+            </form>
+        </div>
+        <div class="box incomplete-tasks">
+            <h2>To-Do List</h2>
+            <ul id="items">
+                <li class="item">
+                    <input type="checkbox"><label">Task-1</label>
+                </li>
+                <li class="item">
+                    <input type="checkbox"><label">Task-2</label>
+                </li>
+                <li class="item">
+                    <input type="checkbox"><label">Task-3</label>
+                </li>
+            </ul>
+        </div>
+        <div class="box complete-tasks">
+            <h2>Completed List</h2>
+            <ul>
+                <li class="item">
+                Task-1 <button class="delete">Delete</button></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
